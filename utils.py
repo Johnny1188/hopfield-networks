@@ -1,7 +1,7 @@
 import numpy as np
 from itertools import islice
 
-MNIST_PATH = "data/mnist_train.csv"
+MNIST_PATH = "data/mnist_train_sample.csv"
 
 def get_data(max_rows=10000):
     data = None
